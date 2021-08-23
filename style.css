@@ -3,12 +3,23 @@
     margin: 10px;
     width: 45%;
     border-radius: 25px;
-    float: left;
+
     
 
 }
 .top-banner{
     background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.box{
+    float: left;
+}
+table, th, td{
+    border: solid gray;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
     
 }
 
