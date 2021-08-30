@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form learning</title>
+</head>
+<body>
+ <p>Now I am learning how to make a fillabla form on google or in a website.</p>
+ <form>
+     <label for="fmane">First Name</label><br>
+     <input type="text" id="fmane" name="fname" value="Sariful"><br>
+     <label for="lname">Last Name</label><br>
+     <input type="text" id="lname" name="lname" value="Alam"><br>
+     <input type="submit" value="submitt">
+     </form>   
+     <form>
+         <h2>Another form I want to learn about</h2>
+         <input type="radio" id="html" name="fav-language" value="HTML">
+         <label for="html">HTML</label><br>
+         <input type="radio" id="css" name="fav-language" value="CSS">
+         <label for="css">CSS</label><br>
+         <input type="radio" id="python" name="fav-language" value="PYTHON">
+         <label for="python">PYTHON</label>
+     </form>
+
+     <form>
+        <label for="fname">First Name</label>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lname">
+        </form>
+        <form>
+         <input type="radio" id="football" name="fav-game">
+         <label for="football">Football</label><br>
+         <input type="radio" id="cricket" name="fav-game">
+         <label for="cricket">Cricket</label>
+         </form>
+         <form>
+             <h2>This is for cheackbox form.</h2>
+             <input type="checkbox" id="vehicle1" name="vehicle1">
+             <label for="vehicle1">I have a bike</label><br>
+             <input type="checkbox" id="vehicle2" name="vehicle2">
+             <label for="vehicle2">I have a car</label><br>
+             <input type="checkbox" id="boat" name="boat">
+             <label for="boat">I have a boat also</label>
+         </form>
+        
+         <form>
+             <h2>Parent's data</h2>
+             <fieldset>
+                 <legend>Parent's data</legend>
+             <label for="one-name">Father's name:</label>
+             <input type="text" id="one-name" name="one-name"><br><br>
+             <label for="two-name">Mother's Name:</label>
+             <input type="text" id="two-name" name="one-name"><br><br>
+             <label for="b-date">Birthdate</label>
+             <input type="date" id="b-date"><br>
+             </fieldset>
+
+             <p>Choose your board name:</p>
+             <input type="radio" id="board" name="board">
+             <label for="board">Dhaka</label><br>
+             <input type="radio" id="board" name="board"> 
+             <label for="board">Chittagong</label><br>
+             <input type="radio" id="borad" name="board">
+             <label for="board">Comilla</label><br>
+             <input type="radio" id="board" name="board">
+             <label for="board">Rahshahi</label><br>
+             <input type="radio" id="board" name="board">
+             <label for="board">Khulna</label>
+            </form>
+           
+            <label for="year">Passing Year:</label>
+            <select id="year" name="year">
+             <option value="2013">2013</option>
+             <option value="2014">2014</option>
+             <option value="2015">2015</option>
+             <option value="2016">2016</option>
+            </select>
+            <p>Educational Title:</p>
+            <input type="checkbox" id="jsc" name="education">
+            <label for="jsc">JSC</label>
+            <input type="checkbox" id="ssc" name="education">
+            <label for="ssc">SSC</label>
+            <input type="checkbox" id="hsc" name="education">
+            <label for="hsc">HSC</label><br>
+            <button onclick="button">Submitt</button><br>
+            <button type="button" onclick="alert('Congratualtion')">Click Me</button>
+
+            <input list="qualification" name="qualification">
+            <datalist id="qualification">
+                <option value="ssc">
+                <option value="hsc">
+                <option value="honours">
+                <option value="masters">
+            </datalist>
+            <input type="button" value="submitt">
+            <input type="reset" value="reset"><br>
+            <label for="upload">Upload your photo:</label>     
+          <input type="file" id="upload" name="upload">
+            
+
+</body>
+</html>
